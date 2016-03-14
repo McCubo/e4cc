@@ -1,0 +1,20 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/13-View
+
+default:
+  http_metas:
+    content-type: text/html
+
+  metas:
+    #title:        symfony project
+    #description:  symfony project
+    #keywords:     symfony, project
+    #language:     en
+    #robots:       index, follow
+
+  stylesheets:    [main.css, ../tmcTwitterBootstrapPlugin/css/bootstrap.min.css, ../tmcTwitterBootstrapPlugin/css/bootstrap-responsive.min.css, ../tmcTwitterBootstrapPlugin/css/styles.css, jquery.growl.css]
+
+  javascripts:    [../tmcTwitterBootstrapPlugin/js/jquery.min.js, ../tmcTwitterBootstrapPlugin/js/bootstrap.min.js, ../tmcTwitterBootstrapPlugin/js/global.js, jquery.growl.js]
+
+  has_layout:     true
+  layout:         layout

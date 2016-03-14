@@ -1,0 +1,31 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+# default rules
+homepage:
+  url:   /
+  param: { module: login, action: index }
+
+# generic rules
+# please, remove them by adding more specific rules
+default_index:
+  url:   /:module
+  param: { action: index }
+
+default:
+  url:   /:module/:action/*
+
+activate_student:
+  url: /login/activate/*
+  
+disabled_module:
+ url: /default/disabled
+
+not_found:
+    url: /default/error404
+
+activate_user:
+    url: /default/activate
+
+restore_password:
+    url: /login/restore/*

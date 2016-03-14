@@ -1,0 +1,21 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/13-View
+
+default:
+  http_metas:
+    content-type: text/html
+
+  metas:
+    title:        English 4 Call Centers, Evaluation System
+    description:  System to keep track of all students and their grades
+    keywords:     e4cc, english, symfony, evaluation, grades
+    language:     en
+    autor:        Symfony 1.4
+    #robots:       index, follow
+
+  stylesheets:    [error.css]
+
+  javascripts:    []
+
+  has_layout:     true
+  layout:         error_layout
